@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'SilkscreenNormal';
+    src: url('../fonts/slkscr-webfont.eot');
+    src: url('../fonts/slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/slkscr-webfont.woff') format('woff'),
+         url('../fonts/slkscr-webfont.ttf') format('truetype'),
+         url('../fonts/slkscr-webfont.svg#SilkscreenNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: #325b7f;
+}
+#me {
+	background: url("me.png");
+	width: 139px;
+	height: 489px;
+	display: block;
+	margin: 50px;
+	float: left;
+
+}
+#cloud {
+	display: block;
+	position: relative;
+	width: 360px;
+	opacity: .8;
+}
+#float {
+	width: 360px;
+	height: 12px;
+	background: #fff;
+	display: block;
+	clear: both;
+}
+#me2 {
+	margin: 25px;
+	float: left;
+	position: absolute;
+	z-index: -20;
+  bottom: 0;
+  left: 0;
+}
+.row {
+	clear: both;
+}
+.base {
+	width: 6px;
+	height: 6px;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.hair {
+	background: #3e2e16;
+}
+.skinDark {
+	background: #d2a584;
+}
+.skinLight {
+	background: #eeccb4;
+}
+.hoodDark {
+	background: #2d5e29;
+}
+.hoodLight {
+	background: #4d8c41;
+}
+.white {
+	background: #fff;
+}
+.cloud {
+	background: #fff;
+}
+.jean {
+	background: #333333;
+}
+.jeanLight {
+	background: #3d3c3c;
+}
+.shoe {
+	background: #d6d2d1;
+}
+.shoeDark {
+	background: #403f3f;
+}
+#grass {
+	background: #417556;
+	width: 100%;
+	height: 128px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -25;
+}
+#myInfo {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+#myInfo h1 {
+  font: 66px/80px 'SilkscreenNormal', Arial, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  /* text-shadow: 1px 2px 0 rgba(255, 255, 255, 0.1), -2px -1px 0 rgba(0,0,0,0.3), 0 3px 0 rgba(255, 255, 255, 0.3); */
+  margin-bottom: -10px;
+}
+
+#myInfo h2 {
+  font: 18px/27px 'SilkscreenNormal', Arial, sans-serif;
+  margin-left: 7px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+.raindrop {
+	width: 6px;
+	height: 6px;
+	background: lightblue;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+}
